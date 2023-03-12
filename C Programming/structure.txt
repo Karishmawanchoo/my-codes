@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main ()
+
+struct student
+{
+    int roll_no;
+    float m1, m2,m3;
+    char name[30];
+}
+  void main()
+  {
+    printf("Enter your name:\n");
+    gets(x.name);
+    printf("Enter your roll number:\n");
+    scanf("%d",&x.roll);
+    printf("Enter your marks:\n");
+    scanf("%f\n%f\n%f\n%f\n", &x.m1, &x.m2, &x.m3, &x.m4);
+    x.percentage=x.m1+x.m2+x.m3+x.m4/100*4;
+    printf("Your percentage is:%f\n", x.percentage);
+    
+  }

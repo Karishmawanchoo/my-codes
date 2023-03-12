@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+int main() {
+    int distance;
+   double earthRadius = 6328.0;
+   double moonRadius = 1456.0;
+
+   printf("Enter the distance between the centers of earth and moon in kilometers");
+   scanf("%lf", & distance);
+
+   double surfacedistance = distance - earthRadius - moonRadius;
+
+   printf("The distance between the surfaces of the earth and moon  is: %.2lf\n ", surfacedistance);
+
+   return 0;
+
+
+    
+}
